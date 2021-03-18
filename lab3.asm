@@ -9,7 +9,7 @@ MODEL SMALL		; Директива - тип моделі пам’яті
 STACK 512		; Директива - розмір стеку 
 
 DATASEG
-
+; Початок 
 ; Оголошуємо двовимірний масив 16х16
 array2Db db 2Ah, 2Ah, 2Ah, 2Ah, 2Ah, 2Ah, 2Ah, 2Ah, 2Ah, 2Ah, 2Ah, 2Ah, 2Ah, 2Ah, 2Ah, 2Ah
 		 db 2Ah, 2Ah, 2Ah, 2Ah, 2Ah, 2Ah, 2Ah, 2Ah, 2Ah, 2Ah, 2Ah, 2Ah, 2Ah, 2Ah, 2Ah, 2Ah
